@@ -5,5 +5,5 @@ This script accepts a json file as the argument, then it uses regex to find all 
 # Install
 npm install json_url_jpeg_remover -g
 
-# Usege
+# Usage
 json-url-remover filename.json
