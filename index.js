@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var fs = require('fs');
 let filePath = process.argv[2];
 if (!filePath) {
@@ -11,7 +13,6 @@ try {
     const strippedJson = jsonString.replace(/(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|jpeg|gif|png)/g, "")
     console.log(strippedJson)
     fs.writeFile(`${filePath}_stripped.json`, strippedJson, 'utf8', function(err) {
-        console.log('dsdsds');
         if(err) {
             console.log(err);
             process.exit()

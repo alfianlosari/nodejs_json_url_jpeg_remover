@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alfian Losari",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "json-url-remover": "./index.js"
+  }
 }
