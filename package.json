@@ -1,6 +1,6 @@
 {
   "name": "json_url_jpeg_remover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A script that accepts a filename of the JSON, then remove all the string containing http://***.jpeg|jpg|gif|png",
   "main": "index.js",
   "scripts": {
